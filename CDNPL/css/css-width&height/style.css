@@ -1,0 +1,120 @@
+/*
+* - global selector
+always placed at top
+*/
+/* *
+{
+    background-color: brown;
+    color:#FFF;
+} */
+
+/* h1
+{
+color:#FF0000;
+background-color: #000000;
+} */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+p span {
+  font-weight: bold;
+}
+
+.intro {
+  /*CLASS*/
+  background-color: green;
+  /* color: white; */
+  background-image: url("https://img.freepik.com/premium-vector/software-development-web-coding-laptop-programming-concept-website-design-coding-remote-work-home_3482-5615.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#intro {
+  /*ID*/
+  /* background-color: blue;
+  color: white; */
+}
+
+.text-white {
+  color: #fff;
+}
+
+/*
+.class - class1 class2 class3 -styling
+id - unique -dyanamic
+*/
+
+/*Element Selector*/
+.intro h1 {
+  color: #fff;
+  border-top: dashed;
+  border-style: solid;
+  /* border-color: #ff04dc00; */
+  border-left: solid;
+  border-right: solid;
+  border-bottom: dashed;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Parent Selector*/
+.intro > p {
+  color: white;
+  font-size: 20px;
+}
+
+.intro button {
+  background-color: #ff04dc00;
+  color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-top: dashed;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: dashed;
+  border-radius: 15px;
+  /* margin-top: 50px; */
+  margin-left: 20px;
+}
+.intro img {
+  margin-top: 15px;
+}
+
+.testimonial h1 {
+  font-weight: bold;
+}
+
+.testimonial {
+  padding: 30px;
+  width: auto;
+  /* width: 650px; */
+  /* height: 100px; */
+  max-width: 500px;
+  background-color: #e8bc68;
+}
+
+/*
+Margin
+p
+{
+  margin : 5px 10px 5px 10px;
+  top right bottom left
+}
+p
+{
+  top bottom - 5px
+  left right - 10px
+  margin : 5px 10px;
+}
+*/
+
+/*
+https://browsersize.com/
+*/

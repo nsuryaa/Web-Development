@@ -1,0 +1,57 @@
+/*
+* - global selector
+always placed at top
+*/
+/* *
+{
+    background-color: brown;
+    color:#FFF;
+} */
+
+/* h1
+{
+color:#FF0000;
+background-color: #000000;
+} */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+p span {
+  font-weight: bold;
+}
+
+.intro {
+  /*CLASS*/
+  background-color: green;
+  /* color: white; */
+}
+
+#intro {
+  /*ID*/
+  /* background-color: blue;
+  color: white; */
+}
+
+.text-white {
+  color: #fff;
+}
+
+/*
+.class - class1 class2 class3 -styling
+id - unique -dyanamic
+*/
+
+/*Element Selector*/
+.intro h1 {
+  color: red;
+}
+
+/*Parent Selector*/
+.intro > p {
+  font-size: 40px;
+}
