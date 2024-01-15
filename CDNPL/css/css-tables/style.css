@@ -133,6 +133,32 @@ id - unique -dyanamic
   /* direction: rtl; */
   word-spacing: 10px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  border: 1px solid #fff;
+}
+
+th {
+  font-size: 20px;
+  padding: 15px;
+  background-color: gray;
+}
+td {
+  padding: 15px;
+}
+tr:hover {
+  background-color: green;
+}
+
+tr:nth-child(even) {
+  background-color: red;
+}
 /*
 Margin
 p
