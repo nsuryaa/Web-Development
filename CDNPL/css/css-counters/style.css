@@ -1,0 +1,14 @@
+.counters {
+  padding: 20px;
+  background-color: green;
+}
+
+body {
+  counter-reset: videos;
+}
+
+h2::before {
+  counter-increment: videos;
+  color: white;
+  content: "Videos #" counter(videos) ": ";
+}

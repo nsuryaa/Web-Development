@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+@media screen and (max-width:600px){
+    body {
+        background-color:lightgreen;
+      }
+    }
+}
